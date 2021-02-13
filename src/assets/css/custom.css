@@ -1,0 +1,39 @@
+h1, h2, h3, h4, h5, h6, legend {
+    color: #20123a;
+    font-family: Metropolis, Inter, X-LocaleSpecific, sans-serif;
+}
+body {
+    font-size: 18px;
+    font-size: 1rem;
+    color: #42425a;
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    line-height: 1.5;
+}
+
+blockquote {
+    border-left: 0.3rem solid #d1d1d1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.1rem 1.5rem;
+}
+
+.description {
+  border-left: 0.3rem solid #d1d1d1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.1rem 1.5rem;
+}
+header {
+  padding: 2rem;
+}
+section {
+      padding: 1rem;
+}
+.card {
+  padding: 0.2rem;
+  margin: 0.5rem;
+}
+
+.container {
+  max-width: 900px;
+}

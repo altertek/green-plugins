@@ -1,0 +1,32 @@
+{
+  "name": "green-plugins",
+  "version": "1.0.0",
+  "description": "Recommanded plugins for optimized browsing on the web",
+  "main": "index.js",
+  "scripts": {
+    "minify:html": "mv dist/assets assets && npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true  --input-dir dist --output-dir dist && mv assets dist/assets",
+    "build": "npx @11ty/eleventy && npm run minify:html",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altertek/green-plugins.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "altertek",
+    "jamstack"
+  ],
+  "author": "Altertek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altertek/green-plugins/issues"
+  },
+  "homepage": "https://github.com/altertek/green-plugins#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "html-minifier": "^4.0.0"
+  },
+  "dependencies": {}
+}
